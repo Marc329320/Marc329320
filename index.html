@@ -1,0 +1,61 @@
+<!DOCTYPE html> <!--dit is de homepage van mijn site-->
+<html lang="nl"> <!--dit is het html-element, lang="nl" zegt dat de pagina Nederlands is-->
+<head>
+    <title>Het eerste begin</title> <!--titel die in het browsertabblad komt te staan-->
+    <meta charset="utf-8"> <!--zorgt dat speciale tekens (zoals é, ë) goed getoond worden-->
+    <link rel="stylesheet" href="style.css"> <!--laadt alle opmaak uit het losse CSS-bestand-->
+</head>
+<body>
+
+    <!-- ===================== NAVIGATIEBALK ===================== -->
+    <!-- Deze balk staat bovenaan op ELKE pagina van de site, zodat je altijd overal naartoe kan -->
+    <nav>
+        <a href="index.html">Home</a>
+        <div class="dropdown"> <!--dropdown: menu-item met een uitklaplijst eronder-->
+            <a href="#">Onderwerpen ▾</a>
+            <div class="dropdown-content">
+                <a href="invoer-verwerking-uitvoer.html">Invoer - Verwerking - Uitvoer</a>
+                <a href="binairstelsel.html">Binair stelsel</a>
+                <a href="kleurmodellen.html">Kleurmodellen</a>
+                <a href="compressie.html">Compressie</a>
+                <a href="ai.html">AI</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===================== HOOFDINHOUD ===================== -->
+    <main>
+        <h1>Welkom op mijn website</h1>
+
+        <div class="afbeelding-blok"> <!--afbeelding netjes in een kader met schaduw-->
+            <img src="foto.jpg" alt="Foto van mezelf">
+            <!-- Vervang "foto.jpg" door de bestandsnaam van jouw eigen geuploade foto -->
+            <p>Dit ben ik!</p>
+        </div>
+
+        <h2>Over mezelf</h2>
+        <p>
+            Hoi, ik ben [jouw naam]. Ik zit op [school/klas] en deze website maak ik
+            als schoolproject. Hier leer je iets over invoer/verwerking/uitvoer,
+            het binaire stelsel, kleurmodellen, compressie en AI.
+        </p>
+        <p>
+            Vervang deze tekst door een kort, persoonlijk stukje over jezelf:
+            je hobby's, waarom je informatica leuk vindt, of iets anders dat je
+            wilt delen. Houd het kort — een paar zinnen per alinea is genoeg.
+        </p>
+
+        <!-- Knoppen die doorlinken naar de belangrijkste pagina's -->
+        <p>
+            <a href="binairstelsel.html" class="knop">Ontdek het binair stelsel</a>
+            <a href="ai.html" class="knop">Lees over AI</a>
+        </p>
+    </main>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer>
+        &copy; [jouw naam] - 2026
+    </footer>
+
+</body>
+</html>
